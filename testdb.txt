@@ -1,0 +1,33 @@
+-- drop database testdb;
+use testdb;
+
+insert into persona (nome,cognome) values 
+("Aldo","Baglio"),
+("Carlo","Danti"),
+("Enzo","Franco"),
+("Guido","Itali"),
+("Lino","Marci"),
+("Nando","Ottaviani"),
+("Paolo","Quagli");
+
+insert into todo (text,description,persona_id) values
+("Uno","Paga",7),
+("Due","Lavora",5),
+("Tre","Studia",6),
+("Quattro","Leggi",4),
+("Cinque","Impara",3),
+("Sei","Salta",1),
+("Sette","Corri",2),
+("Otto","Fuma",1),
+("Nove","Bevi",3),
+("Dieci","Magna",4),
+("Undici","Allenati",2),
+("Dodici","Scrivi",6),
+("Tredici","Lava",5),
+("Quattordici","Sedia",5),
+("Quindici","Quadro",7),
+("Sedici","TV",1),
+("Diciassette","Lampada",3),
+("Diciotto","Esplodi",2),
+("Diciannove","Caffe",4),
+("Venti","Sigaretta",5);

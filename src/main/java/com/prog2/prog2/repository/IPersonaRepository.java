@@ -14,6 +14,6 @@ public interface IPersonaRepository extends JpaRepository<Persona, Long> {
 	List<Persona> findByNome(String nome);
 	
 	List<Persona> findByTodosTextLike(String pippo);
-	
+
 
 }
